@@ -1,21 +1,22 @@
 import React from 'react';
+import na from './modules/Navigation.module.css'
 
 const Navigation = () => {
     return (
-        <nav className='nav'>
-            <div>
+        <nav className={na.nav}>
+            <div className={na.Nav_list}>
                 <a>Profile</a>
             </div>
-             <div>
-                  <a>  Messages</a>
+            <div className={na.Nav_list}>
+                <a> Messages</a>
             </div>
-            <div>
-                  <a>News</a>
+            <div className={na.Nav_list}>
+                <a>News</a>
             </div>
-            <div>
-                  <a>Music</a>
+            <div className={na.Nav_list}>
+                <a>Music</a>
             </div>
-            <div>
+            <div className={na.Nav_list}>
                 <a>Settings</a>
             </div>
         </nav>

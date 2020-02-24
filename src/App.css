@@ -6,28 +6,3 @@
     max-width: 1200px;
     margin: 0 auto; 
 }
-
-.header {
-    grid-area: h;
-    background-color: green;
-}
-
-.header img {
-    width: 50px;
-}
-
-.nav {
-    grid-area: n;
-    background-color: yellow;
-}
-
-.container {
-    grid-area: c;
-    background-color: blue;
-
-}
-
-.Img_Profile {
-    width: 400px;
-    height: 150px;
-}
