@@ -5,13 +5,15 @@ import Post from './posts/Post';
 const MyPosts = () => {
     return (
         <div className={post.MyPosts}>
-            <div>
+              <div>
                 My posts
             <div>
                 New posts
             </div>
-          <Post /> 
-            </div>
+            <Post />
+            <Post />                     
+            <Post />                     
+             </div>
 
         </div>
 
