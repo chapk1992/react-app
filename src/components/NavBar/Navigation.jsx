@@ -1,14 +1,14 @@
 import React from 'react';
-import na from './modules/Navigation.module.css'
+import na from './Navigation.module.css'
 
 const Navigation = () => {
     return (
         <nav className={na.nav}>
             <div className={na.Nav_list}>
-                <a>Profile</a>
+                <a href='/profile'>Profile</a>
             </div>
             <div className={na.Nav_list}>
-                <a> Messages</a>
+                <a href='/message'> Messages</a>
             </div>
             <div className={na.Nav_list}>
                 <a>News</a>

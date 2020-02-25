@@ -1,5 +1,6 @@
 import React from 'react';
-import con from './modules/Container.module.css'
+import con from './Container.module.css'
+import MyPosts from './MyPosts/MyPosts';
 
 const Container = () => {
     return (
@@ -8,18 +9,7 @@ const Container = () => {
             <div>
                 ava + description
             </div>
-            <div>
-                   My posts
-            </div>
-            <div>
-                   New posts  
-            </div>
-            <div>
-                  post 1
-            </div>
-            <div>
-                  post 2
-            </div>
+            <MyPosts />
         </div>
 
     )
