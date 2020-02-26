@@ -1,10 +1,18 @@
 .nav {
     grid-area: n;
-    background-color: yellow;
+    background-color: rgb(25, 204, 25);
  }
             
  .Nav_list {
-     color: slateblue;
+     color: rgb(252, 252, 252);
      padding-left: 10px;
      padding-top: 5px;  
+ }
+
+a {
+     color: snow;
+ }
+
+ a.active {
+     color: gold;
  }
