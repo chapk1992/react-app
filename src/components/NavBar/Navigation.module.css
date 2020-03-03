@@ -10,9 +10,9 @@
  }
 
 a {
-     color: snow;
+     color: rgb(48, 6, 124);
  }
 
- a.active {
+ .Nav_list a.active {
      color: gold;
  }

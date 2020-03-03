@@ -4,7 +4,7 @@ import con from './Dialogs.module.css'
 const Dialogs = () => {
     return (
         <div className={con.container}>
-            Dialogs
+        
         </div>
 
     )
